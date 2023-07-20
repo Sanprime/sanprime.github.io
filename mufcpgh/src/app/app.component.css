@@ -1,0 +1,13 @@
+.site-header {
+  text-align: center;
+}
+
+.navigation-bar {
+  background-color: #FF0000;
+  overflow: hidden;
+}
+
+.heading-text {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
