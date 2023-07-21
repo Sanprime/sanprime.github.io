@@ -5,12 +5,14 @@ import {BrowserModule} from "@angular/platform-browser";
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { LinkTreeComponent } from './home-page/link-tree/link-tree.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutUsComponent,
-    HomePageComponent
+    HomePageComponent,
+    LinkTreeComponent
   ],
   imports: [
     BrowserModule,

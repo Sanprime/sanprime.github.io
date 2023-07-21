@@ -1,0 +1,15 @@
+.btn img {
+  width: 27px; /* Adjust width as needed */
+  height: 27px; /* Adjust height as needed */
+}
+
+.rounded-container {
+  border-radius: 15px; /* Adjust the value to control the corner roundness */
+  background-color: #f8f9fa; /* Optional: Set your desired background color */
+  /*padding: 20px; !* Add padding to the container for content spacing *!*/
+  align-content: end;
+}
+
+.social-media-text {
+  font-family: "Times New Roman", Times, serif;
+}
