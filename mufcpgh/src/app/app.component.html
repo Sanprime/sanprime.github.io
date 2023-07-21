@@ -1,6 +1,21 @@
 <nav class="navbar navbar-dark bg-black py-3">
-  <a class="navbar-brand">
+  <div class="navbar-brand">
     <img src="./assets/IMG_20230413_173935_664.jpg" width="150" height="150" alt="">
-  </a>
-  <a style="padding-right: 100px" class="navbar-brand heading-text">The Manchester United Pittsburgh Supporters Club</a>
+  </div>
+  <div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+          <button type="button" class="btn btn-danger btn-primary btn-lg" (click)="navigateToHomeScreen()">Home</button>
+        </div>
+        <div class="col-sm-7">
+          <button type="button" class="btn btn-danger btn-primary btn-lg" (click)="navigateToAboutUsScreen()">About Us
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="padding-right: 100px" class="navbar-brand heading-text">The Manchester United Pittsburgh Supporters Club
+  </div>
 </nav>
+<router-outlet></router-outlet>
