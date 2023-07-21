@@ -9,6 +9,10 @@ import {Router} from "@angular/router";
 export class AppComponent {
   constructor(private router: Router) {
   }
+
+  ngOnInit() {
+  }
+
   title = 'mufcpgh';
 
   navigateToAboutUsScreen() {

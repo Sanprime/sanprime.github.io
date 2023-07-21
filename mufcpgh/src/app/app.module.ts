@@ -6,13 +6,15 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { LinkTreeComponent } from './home-page/link-tree/link-tree.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutUsComponent,
     HomePageComponent,
-    LinkTreeComponent
+    LinkTreeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
