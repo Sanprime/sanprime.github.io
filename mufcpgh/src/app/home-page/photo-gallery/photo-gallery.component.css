@@ -1,0 +1,52 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-container {
+  width: 200px;
+  margin: 10px;
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+}
+
+.photo-container {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid transparent;
+}
+
+.photo-container.active {
+  border-color: #007bff; /* Add a border around the active photo */
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 400px;
+  overflow-y: auto;
+  justify-content: center; /* To center the navigation buttons horizontally */
+}
+
+.nav-button {
+  font-size: 24px;
+  background-color: #f8f9fa;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Remove the scrollbar */
+.gallery {
+  overflow: hidden;
+  max-height: 400px; /* Set the maximum height of the gallery */
+}
+

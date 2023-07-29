@@ -1,0 +1,9 @@
+<h1>Photo Gallery</h1>
+
+<div class="gallery">
+  <div *ngFor="let photo of photos">
+    <div class="photo-container">
+      <img [src]="photo" alt="Photo">
+    </div>
+  </div>
+</div>
