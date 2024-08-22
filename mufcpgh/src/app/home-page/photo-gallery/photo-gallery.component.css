@@ -50,3 +50,7 @@
   max-height: 400px; /* Set the maximum height of the gallery */
 }
 
+.centered-text {
+  text-align: center;
+}
+
