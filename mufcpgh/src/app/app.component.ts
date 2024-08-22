@@ -21,6 +21,9 @@ export class AppComponent {
 
   navigateToHomeScreen() {
     this.router.navigate(['/']);
+  }
 
+  navigateToLatestScoreScreen() {
+    this.router.navigate(['/latest_score']);
   }
 }

@@ -1,0 +1,10 @@
+{
+  "/latest_score": {
+    "target": "http://api.football-data.org/v4/teams/66/matches",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}

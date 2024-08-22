@@ -8,6 +8,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { LinkTreeComponent } from './home-page/link-tree/link-tree.component';
 import { FooterComponent } from './footer/footer.component';
 import { PhotoGalleryComponent } from './home-page/photo-gallery/photo-gallery.component';
+import { LatestScoreComponent } from './latest-score/latest-score.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -16,12 +18,14 @@ import { PhotoGalleryComponent } from './home-page/photo-gallery/photo-gallery.c
     HomePageComponent,
     LinkTreeComponent,
     FooterComponent,
-    PhotoGalleryComponent
+    PhotoGalleryComponent,
+    LatestScoreComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
