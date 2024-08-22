@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {Observable} from "rxjs";
 
 @Injectable({
@@ -12,6 +12,9 @@ export class FootballScoresService {
   constructor(private http: HttpClient) { }
 
   getUnitedScores(): Observable<any> {
-    return this.http.get(this.apiUrl);
+    const headers = new HttpHeaders({
+      'X-Auth-Token': '19de5c6e7e554dae8953e810a926fed1'
+    })
+    return this.http.get(this.apiUrl, {headers});
   }
 }
