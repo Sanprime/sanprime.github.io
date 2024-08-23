@@ -49,3 +49,10 @@
 .home-button:hover, .gallery-button:hover, .about-button:hover {
   color: #f00000; /* Change to the desired color on hover */
 }
+
+.container {
+  max-width: 1200px; /* Match the max-width of header-content */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
