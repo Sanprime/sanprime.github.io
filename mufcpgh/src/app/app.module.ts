@@ -6,8 +6,9 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import { HomePageComponent } from './home-page/home-page.component';
 import { LinkTreeComponent } from './home-page/link-tree/link-tree.component';
 import { FooterComponent } from './footer/footer.component';
-import { PhotoGalleryComponent } from './home-page/photo-gallery/photo-gallery.component';
+import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
 import {HttpClientModule} from "@angular/common/http";
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {HttpClientModule} from "@angular/common/http";
     HomePageComponent,
     LinkTreeComponent,
     FooterComponent,
-    PhotoGalleryComponent
+    PhotoGalleryComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

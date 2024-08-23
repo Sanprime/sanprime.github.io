@@ -1,0 +1,85 @@
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+  font-size: 36px;
+  color: #c00;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.blog-content {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* New Section Styling */
+.gathering-info {
+  margin-top: 40px;
+}
+
+.gathering-title {
+  font-size: 28px;
+  color: #c00;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.gathering-content {
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+/* Map Container Styling */
+.map-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.map-container iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.members-section {
+  margin-top: 50px;
+}
+
+.members-title {
+  font-size: 28px;
+  color: #c00;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.members-content {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.member-picture {
+  text-align: center;
+}
+
+.member-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -13,8 +13,9 @@ export class FootballScoresService {
 
   getUnitedScores(): Observable<any> {
     const headers = new HttpHeaders({
-      'X-Auth-Token': '19de5c6e7e554dae8953e810a926fed1'
+      'X-Auth-Token': '19de5c6e7e554dae8953e810a926fed1',
+      'Content-Type': 'application/json'
     })
-    return this.http.get(this.apiUrl, {headers});
+    return this.http.get(this.apiUrl, { headers });
   }
 }

@@ -15,15 +15,15 @@ export class AppComponent {
 
   title = 'mufcpgh';
 
-  navigateToAboutUsScreen() {
-    this.router.navigate(['/about_us']);
+  navigateToPhotoGallery() {
+    this.router.navigate(['/photos']);
   }
 
   navigateToHomeScreen() {
     this.router.navigate(['/']);
   }
 
-  navigateToLatestScoreScreen() {
-    this.router.navigate(['/latest_score']);
+  navigateToAboutUs() {
+    this.router.navigate(['/about-us'])
   }
 }

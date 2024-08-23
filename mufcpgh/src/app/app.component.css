@@ -1,52 +1,51 @@
-.site-header {
-  text-align: center;
+:host {
+  display: block;
+  width: 100%;
 }
 
-.navigation-bar {
-  background-color: #FF0000;
-  overflow: hidden;
-}
-
-.heading-text {
-  font-size: 30px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.heading-text:hover {
-  color: red;
-}
-
-.awesome-button {
-  display: inline-block;
-  padding: 12px 24px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border: none;
-  border-radius: 50px;
+.header-bar {
   background-color: black;
-  /*box-shadow: 0 8px 16px red;*/
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Space between the home button and the logo */
+  align-items: center; /* Center the content vertically */
+  position: relative;
+}
+
+.home-button, .gallery-button, .about-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s ease-out;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-/* Hover effect */
-.awesome-button:hover {
-  background-color: red;
-  transform: translateY(-4px) scale(1.02);
+.gallery-button {
+  left: 100px; /* Position the gallery button 100px to the right of the home button */
 }
 
-/* Active effect */
-.awesome-button:active {
-  background-color: #D50000;
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(213, 0, 0, 0.3);
+.about-button {
+  left: 200px; /* Position the about button to the right of the gallery button */
 }
 
-/* Focus effect */
-.awesome-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(255, 61, 0, 0.5);
+.header-logo {
+  height: 80px; /* Adjust the height as needed */
+  margin: 0 auto; /* Center the logo */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.home-button:hover, .gallery-button:hover, .about-button:hover {
+  color: #f00000; /* Change to the desired color on hover */
 }
